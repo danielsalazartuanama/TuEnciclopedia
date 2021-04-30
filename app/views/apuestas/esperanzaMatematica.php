@@ -10,7 +10,7 @@
     </div>
     <div class="row">
         <div class="col-sm-8">
-            <form action="<?= URL ?>apuestas/esperanzaMatematica" method="post">
+            <form action="http://localhost/TuEnciclopedia/public/apuestas/esperanzaMatematica" method="post">
                 <div class="form-group">
                     <label for="cuota">cuota:</label>
                     <input type="number" name="cuota" id="cuota" class="form-control" value="<?= $cuota ?>">

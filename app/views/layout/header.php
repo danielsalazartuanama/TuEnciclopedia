@@ -9,15 +9,15 @@
     <title><?= NOMBRESITIO ?></title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Examen Parcial</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-succes">
+  <a class="navbar-brand" href="index">Examen Parcial</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="http://localhost:8080/TuEnciclopedia/public/area/index"><strong>Area de Desarrollo de Sistemas</strong> </a>
-      <a class="nav-item nav-link" href="http://localhost:8080/TuEnciclopedia/public/apuestas/esperanzaMatematica"><strong>Area de Apuestas</strong></a>
+      <a class="nav-item nav-link active" href="http://localhost/TuEnciclopedia/public/area/index"><strong>Area de Desarrollo de Sistemas</strong> </a>
+      <a class="nav-item nav-link" href="http://localhost/TuEnciclopedia/public/apuestas/esperanzaMatematica"><strong>Area de Apuestas</strong></a>
       <!-- <a class="nav-item nav-link" href="#">suma</a> -->
       <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
     </div>
