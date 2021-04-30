@@ -3,7 +3,11 @@
 require_once '../libs/core.php';
 require_once '../config/config.php';
 require_once '../libs/controller.php';
-require_once '../app/views/layouts/master.php';
+// require_once '../app/views/layouts/master.php';
+// require_once '../app/views/home/index.php';
+// require_once '../app/views/area/desarrollo.php';
+
+
 $core=new Core();
 
 

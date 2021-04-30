@@ -12,13 +12,13 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-        <h1>SALUDO</h1>
+        <h1>multi</h1>
         </div>
     </div>
 
     <div class="row">
         <div class="col-sm-8">
-          <form action="<?=URL?>test/multi" method="post">
+          <form action="<?=URL?>area/multi" method="post">
             <div class="form-group">
                <label for="">Numero 1</label>
                <input type="text" name="0" id="0"class="form-control"value="<?=$num1?>">

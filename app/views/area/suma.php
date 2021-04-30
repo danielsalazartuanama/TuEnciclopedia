@@ -12,16 +12,20 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-        <h1>SALUDO</h1>
+        <h1>SUMA</h1>
         </div>
     </div>
 
     <div class="row">
         <div class="col-sm-8">
-          <form action="<?=URL?>test/saludo" method="post">
+          <form action="<?=URL?>area/suma" method="post">
             <div class="form-group">
-               <label for="">nombre</label>
-               <input type="text" name="nombre" id="nombre"class="form-control"value="<?=$data['nombre']?>">
+               <label for="">Numero 1</label>
+               <input type="text" name="0" id="0"class="form-control"value="<?=$num1?>">
+            </div> 
+            <div class="form-group">
+               <label for="">Numero 2 </label>
+               <input type="text" name="1" id="1"class="form-control"value="<?=$num2?>">
             </div> 
             <div class="form-group">
               <button type="submit" class="btn btn-primary">Enviar</button>
@@ -32,7 +36,7 @@
     <br>
           <div class="row">
              <div class="col-sm-8">
-               Respuesta:Hola <label><?=$data['nombre']?></label> <input type="text" class="form-control"value="<?=$data['nombre']?>" disabled>
+               Respuesta:LA SUMA ES <label><?=$rpta?></label> <input type="text" class="form-control"value="<?=$rpta?>" disabled>
           </div>
           </div>
     </div>

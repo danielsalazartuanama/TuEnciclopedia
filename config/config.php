@@ -1,6 +1,6 @@
 <?php
 //constante la variable url va tener toda la direccion del dominio
-define('URL', 'http://localhost/htgVentasIKASA/public/');
+define('URL', 'http://localhost/TuEnciclopedia/public/');
 
 
 // define('RUTA_URL', '_URL_');
