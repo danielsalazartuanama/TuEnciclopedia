@@ -12,11 +12,11 @@
         <div class="col-xl-8">
             <form action="roi" method="post">
                 <div class="form-group">
-                    <label for="ganancianeta">Probabilidad:</label>
+                    <label for="ganancianeta">Ganacia Neta:</label>
                     <input type="number" name="ganancianeta" id="ganancianeta" class="form-control" min="0" value="<?= $data['ganancianeta'] ?>" step="any">
                 </div>
                 <div class="form-group">
-                    <label for="invertotal">cuota:</label>
+                    <label for="invertotal">Inversion total:</label>
                     <input type="number" name="invertotal" id="invertotal" class="form-control" min="0" value="<?= $data['invertotal'] ?>" step="any">
                 </div>                
                 <div class="form-group">

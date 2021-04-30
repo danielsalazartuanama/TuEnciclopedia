@@ -10,7 +10,7 @@
         <div class="col-xl-8">
             <form action="ganancianeta" method="post">
                 <div class="form-group">
-                    <label for="apuesta">Probabilidad:</label>
+                    <label for="apuesta">Apuesta:</label>
                     <input type="number" name="apuesta" id="apuesta" class="form-control" min="0" value="<?= $data['apuesta'] ?>" step="any">
                 </div>
                 <div class="form-group">
