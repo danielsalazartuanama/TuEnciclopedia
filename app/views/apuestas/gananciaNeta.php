@@ -11,11 +11,11 @@
             <form action="ganancianeta" method="post">
                 <div class="form-group">
                     <label for="apuesta">Probabilidad:</label>
-                    <input type="number" name="apuesta" id="apuesta" class="form-control" value="<?= $data['apuesta'] ?>" step="any">
+                    <input type="number" name="apuesta" id="apuesta" class="form-control" min="0" value="<?= $data['apuesta'] ?>" step="any">
                 </div>
                 <div class="form-group">
                     <label for="cuota">cuota:</label>
-                    <input type="number" name="cuota" id="cuota" class="form-control" value="<?= $data['cuota'] ?>" step="any">
+                    <input type="number" name="cuota" id="cuota" class="form-control" min="0" value="<?= $data['cuota'] ?>" step="any">
                 </div>                
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Calcular</button>

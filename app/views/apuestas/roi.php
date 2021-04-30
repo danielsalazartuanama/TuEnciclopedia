@@ -13,11 +13,11 @@
             <form action="roi" method="post">
                 <div class="form-group">
                     <label for="ganancianeta">Probabilidad:</label>
-                    <input type="number" name="ganancianeta" id="ganancianeta" class="form-control" value="<?= $data['ganancianeta'] ?>" step="any">
+                    <input type="number" name="ganancianeta" id="ganancianeta" class="form-control" min="0" value="<?= $data['ganancianeta'] ?>" step="any">
                 </div>
                 <div class="form-group">
                     <label for="invertotal">cuota:</label>
-                    <input type="number" name="invertotal" id="invertotal" class="form-control" value="<?= $data['invertotal'] ?>" step="any">
+                    <input type="number" name="invertotal" id="invertotal" class="form-control" min="0" value="<?= $data['invertotal'] ?>" step="any">
                 </div>                
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Calcular</button>
