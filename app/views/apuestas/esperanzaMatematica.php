@@ -28,8 +28,8 @@
     <br>
     <div class="row">
         <div class="col-xl-6">
-            Respuesta:
-            <input type="text" class="form-control" value="<?= $data['rpta'] ?>" step="any" disabled>
+            Esperanza Matemática:
+            <input type="text" class="form-control" value="<?= round($data['rpta'],2) ?>" step="any" disabled>
         </div>
     </div>
 </div>

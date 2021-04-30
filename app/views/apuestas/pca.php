@@ -22,7 +22,8 @@
     <br>
     <div class="row">
         <div class="col-sm-8">
-            <input type="text" class="form-control" value="<?= $data['rpta'] ?>" step="any" disabled>
+            Probabilidad de la casa de apuesta es:
+            <input type="text" class="form-control" value="<?= round($data['rpta'],2) . ' %'?>" step="any" disabled>
         </div>
     </div>
 </div>

@@ -28,8 +28,8 @@
     <br>
     <div class="row">
         <div class="col-sm-8">
-            Respuesta:
-            <input type="text" class="form-control" value="<?= $data['rpta'] ?>" step="any" disabled>
+            Retorno de inversión es:
+            <input type="text" class="form-control" value="<?= round($data['rpta'],2) .' soles' ?>" step="any" disabled>
         </div>
     </div>
 </div>
