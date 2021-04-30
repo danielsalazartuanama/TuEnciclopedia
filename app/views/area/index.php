@@ -1,10 +1,10 @@
-<?php require URL_APP . '/app/views/home/header.php'; ?>
+<?php require URL_APP . '/app/views/layout/header.php'; ?>
 
 <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img
-        src="../../../public/img/unnamed.jpg"
+        src="\TuEnciclopedia\public\img\sof.jpg"
         class="d-block w-100"
         alt="..."
       />
@@ -15,7 +15,7 @@
 <div>
 <h1>Principios Solid</h1>
 <p>Todos sabemos que la POO (Programación Orientada a Objetos) nos permite agrupar entidades con funcionalidades parecidas o relacionadas entre sí, pero esto no implica que los programas no se vuelvan confusos o difíciles de mantener.</p>
-<img src="../../../public/img/im.png"  alt="No carga la imagen"/>
+<img src="\TuEnciclopedia\public\img\im.png"/>
 <section>
     <p>De hecho, muchos programas acaban volviéndose un monstruo al que se va alimentando según se añaden nuevas funcionalidades, se realiza mantenimiento, etc…
     <br>Viendo este problema, Robert C. Martin estableció cinco directrices o principios para facilitarnos a los desarrolladores la labor de crear programas legibles y mantenibles.<br>
@@ -43,4 +43,4 @@
     <!-- <img src="../../../public/img/languages.jpg"> -->
 
 
-<?php require URL_APP . '/app/views/home/footer.php'; ?>
+<?php require URL_APP . '/app/views/layout/footer.php'; ?>

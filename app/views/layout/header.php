@@ -16,7 +16,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="area/index"><strong>Area de Desarrollo de Sistemas</strong> </a>
+      <a class="nav-item nav-link active" href="index"><strong>Area de Desarrollo de Sistemas</strong> </a>
       <a class="nav-item nav-link" href="area/multi"><strong>Area de Apuestas</strong></a>
       <!-- <a class="nav-item nav-link" href="#">suma</a> -->
       <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
