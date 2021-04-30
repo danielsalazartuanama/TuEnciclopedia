@@ -10,15 +10,11 @@
     </div>
     <div class="row align-items-center">
         <div class="col-xl-8">
-            <form action="esperanzaMatematica" method="post">
+            <form action="pca" method="post">
                 <div class="form-group">
                     <label for="cuota">cuota:</label>
                     <input type="number" name="cuota" id="cuota" class="form-control" value="<?= $cuota ?>">
-                </div>
-                <div class="form-group">
-                    <label for="probabilidad">Probabilidad:</label>
-                    <input type="number" name="probabilidad" id="probabilidad" class="form-control" value="<?= $probabilidad ?>">
-                </div>
+                </div>                
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Calcular</button>
                 </div>
@@ -28,7 +24,6 @@
     <br>
     <div class="row">
         <div class="col-sm-8">
-            Respuesta:
             <input type="text" class="form-control" value="<?= $rpta ?>" disabled>
         </div>
     </div>

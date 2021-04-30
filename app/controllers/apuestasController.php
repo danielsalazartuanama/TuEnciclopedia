@@ -20,33 +20,32 @@ class ApuestasController extends Controller
         }else{
             $rpta = "favorable";
         }
-        // $this->renderView('Area/saludo',$data);
-        // $this->renderView('apuestas/esperanzaMatematica');
+
         require_once '../app/views/apuestas/esperanzaMatematica.php';
 
     }
 
-    public function suma($param=null)
+    public function pca($param=null)
     {
-        $num1 = isset($_POST[0]) ? $_POST[0] : 0;
-        $num2 = isset($_POST[1]) ? $_POST[1] : 0;
-        $rpta = $num1 + $num2;
-        // require_once '../app/views/area/suma.php';
+        
+        $cuota = isset($_POST['cuota']) ? $_POST['cuota'] : 0;
 
-        // echo "LA SUMA DE: {$num1} + {$num2} = {$rpta}";
+        if($cuota>0){
+            $rpta = ceil(100 * (1/$cuota));
+        }
+        
+        
+        require_once '../app/views/apuestas/pca.php';
        
     }
-    public function multi($param=null)
+    public function gananciaNeta($param=null)
     {
-
-       
-            $num1 = isset($_POST[0]) ? $_POST[0] : 0;
-     
-            $num2 = isset($_POST[1]) ? $_POST[1] : 0;
+        $apuesta = isset($_POST['apuesta']) ? $_POST['apuesta'] : 0;
+        $cuota = isset($_POST['cuota']) ? $_POST['cuota'] : 0;
         
-            $rpta = $num1  * $num2;
-            require_once '../app/views/area/multi.php';
-        //    echo "LA MULTI DE: {$num1} * {$num2} = {$rpta}";
+        $rpta = $apuesta * ($cuota-1);
+        
+        require_once '../app/views/apuestas/ganancianeta.php';
        
     }
 }
