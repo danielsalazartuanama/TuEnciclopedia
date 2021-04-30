@@ -1,4 +1,48 @@
 
-body{
-    background-color: rgb(1, 1, 5);
+
+ #hea{
+    height: 500px;
+    width: 1100px;
+}
+h1{
+    left: 120px;
+    position: relative;
+    top: 10px;
+    font-size: 50px;
+}
+h2{
+    
+        left: 120px;
+        position: relative;
+        top: 10px;
+        font-weight: 800;
+        
+    
+}
+p{
+    left: 120px;
+    position: relative;
+    top: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+ul{
+    left: 120px;
+    position: relative;
+    top: 10px;
+    text-align: justify;
+    font-size: 19px;
+}
+
+#color{
+    height: 160px;
+    width: 1100px;
+    background-color: rgb(17, 1, 1);
+    color: blanchedalmond;
+}
+#iga{
+    left: 115px;
+    position: relative;
+    top: 10px;
+    font-weight: 800;
 }
