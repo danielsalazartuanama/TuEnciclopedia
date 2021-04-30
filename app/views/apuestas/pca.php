@@ -13,7 +13,7 @@
             <form action="pca" method="post">
                 <div class="form-group">
                     <label for="cuota">cuota:</label>
-                    <input type="number" name="cuota" id="cuota" class="form-control" value="<?= $cuota ?>">
+                    <input type="number" name="cuota" id="cuota" class="form-control" value="<?= $data['cuota'] ?>">
                 </div>                
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Calcular</button>
@@ -24,7 +24,7 @@
     <br>
     <div class="row">
         <div class="col-sm-8">
-            <input type="text" class="form-control" value="<?= $rpta ?>" disabled>
+            <input type="text" class="form-control" value="<?= $data['rpta'] ?>" disabled>
         </div>
     </div>
 </div>

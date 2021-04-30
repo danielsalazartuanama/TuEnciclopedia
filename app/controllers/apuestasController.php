@@ -21,7 +21,13 @@ class ApuestasController extends Controller
             $rpta = "favorable";
         }
 
-        require_once '../app/views/apuestas/esperanzaMatematica.php';
+        $data = [            
+            'cuota' => $cuota,
+            'probabilidad' => $probabilidad,
+            'rpta' => $rpta
+        ];
+
+        $this->renderView('apuestas/esperanzaMatematica',$data);
 
     }
 
@@ -31,11 +37,17 @@ class ApuestasController extends Controller
         $cuota = isset($_POST['cuota']) ? $_POST['cuota'] : 0;
 
         if($cuota>0){
-            $rpta = ceil(100 * (1/$cuota));
+            $rpta = 100 * (1/$cuota);
+        }else{
+            $rpta = 0;
         }
-        
-        
-        require_once '../app/views/apuestas/pca.php';
+            
+        $data = [
+            'cuota' => $cuota,
+            'rpta' => $rpta
+        ];
+
+        $this->renderView('apuestas/pca',$data);
        
     }
     public function gananciaNeta($param=null)
@@ -45,8 +57,13 @@ class ApuestasController extends Controller
         
         $rpta = $apuesta * ($cuota-1);
         
-        require_once '../app/views/apuestas/ganancianeta.php';
-       
+        $data = [
+            'apuesta' => $apuesta,
+            'cuota' => $cuota,
+            'rpta' => $rpta
+        ];
+
+        $this->renderView('apuestas/gananciaNeta',$data);  
     }
 
     public function roi($param=null)
@@ -56,9 +73,16 @@ class ApuestasController extends Controller
         
         if($invertotal>0){
             $rpta = ($ganancianeta / $invertotal)*100;
+        }else{
+            $rpta=0;
         }
                 
-        require_once '../app/views/apuestas/roi.php';
-       
+        $data = [
+            'ganancianeta' => $ganancianeta,
+            'invertotal' => $invertotal,
+            'rpta' => $rpta
+        ];
+
+        $this->renderView('apuestas/roi',$data);      
     }
 }
