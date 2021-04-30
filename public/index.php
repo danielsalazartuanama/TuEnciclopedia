@@ -7,10 +7,10 @@ require_once '../libs/controller.php';
 // require_once '../app/views/home/index.php';
 // require_once '../app/views/area/desarrollo.php';
 
+// spl_autoload_register(function($nombreClase){
+//     require_once '../libs/' .$nombreClase. '.php';
+// });
 
 $core=new Core();
 
 
-// spl_autoload_register(function($nombreClase){
-//     require_once 'libs/' .$nombreClase. '.php';
-// });

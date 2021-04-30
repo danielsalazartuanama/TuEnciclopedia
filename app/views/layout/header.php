@@ -16,8 +16,8 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="index"><strong>Area de Desarrollo de Sistemas</strong> </a>
-      <a class="nav-item nav-link" href=""><strong>Area de Apuestas</strong></a>
+      <a class="nav-item nav-link active" href="http://localhost:8080/TuEnciclopedia/public/area/index"><strong>Area de Desarrollo de Sistemas</strong> </a>
+      <a class="nav-item nav-link" href="http://localhost:8080/TuEnciclopedia/public/apuestas/esperanzaMatematica"><strong>Area de Apuestas</strong></a>
       <!-- <a class="nav-item nav-link" href="#">suma</a> -->
       <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
     </div>
