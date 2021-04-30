@@ -48,4 +48,17 @@ class ApuestasController extends Controller
         require_once '../app/views/apuestas/ganancianeta.php';
        
     }
+
+    public function roi($param=null)
+    {
+        $ganancianeta = isset($_POST['ganancianeta']) ? $_POST['ganancianeta'] : 0;
+        $invertotal = isset($_POST['invertotal']) ? $_POST['invertotal'] : 0;
+        
+        if($invertotal>0){
+            $rpta = ($ganancianeta / $invertotal)*100;
+        }
+                
+        require_once '../app/views/apuestas/roi.php';
+       
+    }
 }

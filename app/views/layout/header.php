@@ -28,7 +28,7 @@
           <a class="dropdown-item" href="http://localhost:8080/TuEnciclopedia/public/apuestas/esperanzaMatematica">Esperanza Matemática</a>
           <a class="dropdown-item" href="http://localhost:8080/TuEnciclopedia/public/apuestas/pca">Probabilidad de la casa de apuesta</a>
           <a class="dropdown-item" href="http://localhost:8080/TuEnciclopedia/public/apuestas/ganancianeta">Ganancia Neta</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="http://localhost:8080/TuEnciclopedia/public/apuestas/roi">ROI</a>
         </div>
       </li>
     </ul>
