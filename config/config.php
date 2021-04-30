@@ -1,8 +1,9 @@
 <?php
 //constante la variable url va tener toda la direccion del dominio
-define('URL', 'http://localhost/TuEnciclopedia/public/');
+define('URL','http://localhost:8080/parcial/public/');
 
+define('URL_APP',dirname(dirname(__FILE__)));
 
-// define('RUTA_URL', '_URL_');
-// define('NOMBREDELSITIO','_NOMBRE DEL SITIO');
-// define('ruta_APP', dirname(dirname(__FILE__)));
+define('RUTA_URL','http://localhost:8080/parcial/public');
+
+define('NOMBRESITIO','_NOMBRE_SITIO');
