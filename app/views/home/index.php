@@ -1,5 +1,5 @@
 <?php require URL_APP . '/app/views/layout/header.php'; ?>
-
+    <br>
    <center>
    <img id="iga" src="\TuEnciclopedia\public\img\phpp.jpg"/>
    <h1>Salazar Tuanama Jhony,

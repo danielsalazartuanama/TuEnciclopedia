@@ -3,29 +3,31 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-8">
-            <h1>Esperanza Matemática</h1>
+            <h2>Esperanza Matemática</h2>
         </div>
     </div>
     <div class="row align-items-center">
-        <div class="col-xl-8">
-            <form action="esperanzaMatematica" method="post">
+        <div class="col-xl-6  ">
+            
+            <form id="solo" action="esperanzaMatematica" method="post">
                 <div class="form-group">
                     <label for="cuota">cuota:</label>
-                    <input type="number" name="cuota" id="cuota" class="form-control" value="<?= $cuota ?>">
+                    <input type="number" name="cuota" id="cuota" class="form-control" min="0" step="0.1" step="0" value="<?= $cuota ?>">
                 </div>
                 <div class="form-group">
                     <label for="probabilidad">Probabilidad:</label>
-                    <input type="number" name="probabilidad" id="probabilidad" class="form-control" value="<?= $probabilidad ?>">
+                    <input type="number" name="probabilidad" id="probabilidad" class="form-control"min="0" step="0.1" value="<?= $probabilidad ?>">
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Calcular</button>
                 </div>
             </form>
         </div>
+      
     </div>
     <br>
     <div class="row">
-        <div class="col-sm-8">
+        <div class="col-xl-6">
             Respuesta:
             <input type="text" class="form-control" value="<?= $rpta ?>" disabled>
         </div>

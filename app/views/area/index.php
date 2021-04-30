@@ -1,4 +1,5 @@
 <?php require URL_APP . '/app/views/layout/header.php'; ?>
+<br>
     <div class="container">
       <img id="hea" src="\TuEnciclopedia\public\img\sof.jpg" alt="..."/>
     </div>

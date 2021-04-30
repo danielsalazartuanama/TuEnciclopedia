@@ -1,10 +1,7 @@
-<footer class="bg-light text-center text-lg-start">
-
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    
-    <a class="text-dark" href="https://mdbootstrap.com/">Profesor:Henrry Torres</a>
+<footer  class=" abajobg-light text-center text-lg-start ">
+  <div class="text-center p-3 bg-danger"> 
+    <a class="text-white" href="#">Profesor:Henrry Torres</a>
   </div>
-
 </footer>
 
 <script type="text/javascript" src="<?= RUTA_URL ?>/js/main.js"></script>

@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-8">
-            <h1>Probabilidad de la casa de apuesta</h1>
+            <h2>Probabilidad de la casa de apuesta</h2>
         </div>
     </div>
     <div class="row align-items-center">
