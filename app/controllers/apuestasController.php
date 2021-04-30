@@ -32,6 +32,8 @@ class ApuestasController extends Controller
 
         if($cuota>0){
             $rpta = ceil(100 * (1/$cuota));
+        }else{
+            $rpta="0";
         }
         
         
@@ -56,6 +58,8 @@ class ApuestasController extends Controller
         
         if($invertotal>0){
             $rpta = ($ganancianeta / $invertotal)*100;
+        }else{
+            $rpta="0";
         }
                 
         require_once '../app/views/apuestas/roi.php';
