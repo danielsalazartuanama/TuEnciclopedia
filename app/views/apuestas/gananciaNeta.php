@@ -1,7 +1,5 @@
 <?php require URL_APP . '/app/views/layout/header.php'; ?>
 
-
-
 <div class="container">
     <div class="row">
         <div class="col-sm-8">

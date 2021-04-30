@@ -18,16 +18,16 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost:8080/TuEnciclopedia/public/area/index">Area de Desarrollo de Sistemas</a>
+        <a class="nav-link" href="http://localhost/TuEnciclopedia/public/area/index">Area de Desarrollo de Sistemas</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Area de Apuestas
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="http://localhost:8080/TuEnciclopedia/public/apuestas/esperanzaMatematica">Esperanza Matemática</a>
-          <a class="dropdown-item" href="http://localhost:8080/TuEnciclopedia/public/apuestas/pca">Probabilidad de la casa de apuesta</a>
-          <a class="dropdown-item" href="http://localhost:8080/TuEnciclopedia/public/apuestas/ganancianeta">Ganancia Neta</a>
+          <a class="dropdown-item" href="http://localhost/TuEnciclopedia/public/apuestas/esperanzaMatematica">Esperanza Matemática</a>
+          <a class="dropdown-item" href="http://localhost/TuEnciclopedia/public/apuestas/pca">Probabilidad de la casa de apuesta</a>
+          <a class="dropdown-item" href="http://localhost/TuEnciclopedia/public/apuestas/ganancianeta">Ganancia Neta</a>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
