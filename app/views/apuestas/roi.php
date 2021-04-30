@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-8">
-            <h1>ROI</h1>
+            <h2>ROI</h2>
         </div>
     </div>
     <div class="row align-items-center">

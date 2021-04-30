@@ -1,11 +1,9 @@
 <?php require URL_APP . '/app/views/layout/header.php'; ?>
 
-
-
 <div class="container">
     <div class="row">
         <div class="col-sm-8">
-            <h1>Ganancia Neta</h1>
+            <h2>Ganancia Neta</h2>
         </div>
     </div>
     <div class="row align-items-center">
