@@ -1,5 +1,5 @@
 <?php
-
+//HERENCIA AL CONTROLADOR
 class TestController extends Controller
 {
     public function index()
@@ -8,7 +8,10 @@ class TestController extends Controller
         $this->renderView('test/index');
     }
 
+    public function desarrollo(){
 
+        
+    }
 
     public function saludo($param=null)
     {
@@ -32,7 +35,7 @@ class TestController extends Controller
 
 
         ];
-        $this->renderView('test/saludo',$data);
+        $this->renderView('layouts/master',$data);
 
     }
 

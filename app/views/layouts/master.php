@@ -9,16 +9,16 @@
 </head>
 <body>
 
-@section('main')
-@show
+<header>
+	<?php 
+		require_once('header.php');
+	?>	
+</header>
 
-<footer class="bg-light text-center text-lg-start">
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
+<footer>
+	<?php 
+		require_once('footer.php');
+	?>	
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

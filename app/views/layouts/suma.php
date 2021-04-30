@@ -18,7 +18,7 @@
 
     <div class="row">
         <div class="col-sm-8">
-          <form action="<?=URL?>test/suma" method="post">
+          <form action="<?=URL?>layouts/suma" method="post">
             <div class="form-group">
                <label for="">Numero 1</label>
                <input type="text" name="0" id="0"class="form-control"value="<?=$num1?>">
